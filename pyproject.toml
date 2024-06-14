@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ragspital"
+version = "0.1.0"
+description = "A RAG Hospital System"
+authors = ["Cristian Angulo <cristianangulonova@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.1.14"
+langchain-community = "^0.0.31"
+langchainhub = "^0.1.15"
+chromadb = "^0.4.24"
+ollama = "^0.1.8"
+langchain-core = "^0.1.42"
+gradio = "^4.31.5"
+beautifulsoup4 = "^4.12.3"
+tiktoken = "^0.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.23.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
